@@ -14,7 +14,7 @@
             class="el-icon-monitor exit-full"
         ></i>
         <PicturePreview></PicturePreview>
-        <!--        <ColumnListDraw></ColumnListDraw>-->
+        <ColumnListDraw></ColumnListDraw>
     </section>
 </template>
 <script>
@@ -36,8 +36,8 @@ export default {
         ReadToolBar,
         ArticleContent,
         PicturePreview,
-        DragLine
-        // ColumnListDraw,
+        DragLine,
+        ColumnListDraw
         // AudioPlayer
     },
     data() {
