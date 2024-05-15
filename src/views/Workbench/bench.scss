@@ -1,0 +1,42 @@
+
+.bench-layout {
+
+  height: 100vh;
+
+  .bench-header {
+    height: 48px;
+    background-color: #2B2B2B;
+    line-height: 48px;
+    padding: 0 10px;
+  }
+
+  .bench-wrapper {
+    display: flex;
+    height: calc(100vh - 48px);
+
+    .bench-sidebar {
+      width: 200px;
+      padding: 16px;
+      background-color: #202020;
+      color: $color;
+    }
+
+    .bench-content {
+      flex: 1;
+      height: 100%;
+      overflow-y: auto;
+
+    }
+  }
+
+}
+
+//小于750的尺寸
+@media (max-width: 750px) {
+  .bench-layout {
+    .bench-header {
+      padding: 0 5px;
+    }
+  }
+
+}

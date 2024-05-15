@@ -1,0 +1,11 @@
+Model Information:
+* title:	Lazy panda
+* source:	≈
+* author:	manogna (https://sketchfab.com/manogna)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Lazy panda" (https://sketchfab.com/3d-models/lazy-panda-87c2553e593c49c380412fac2d65cc1e) by manogna (https://sketchfab.com/manogna) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

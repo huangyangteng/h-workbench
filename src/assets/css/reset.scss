@@ -1,0 +1,423 @@
+body {
+  color: $font-color;
+  background-color: $page-bg-color;
+}
+
+section, div, nav, aside {
+  box-sizing: border-box;
+}
+
+.el-menu {
+  background-color: $component-bg-color-2;
+  border-color: $component-bg-color-2;
+}
+
+.el-submenu__title:hover {
+  background-color: transparent;
+}
+
+.el-menu-item:hover, .el-menu-item:focus {
+  background-color: transparent;
+
+}
+
+.el-input input,
+.el-textarea > textarea {
+  background-color: $component-bg-color;
+  color: $font-color;
+  border: 0;
+}
+
+
+.el-dialog {
+  background-color: $component-bg-color !important;
+  color: $font-color;
+}
+
+.el-dialog__title {
+  color: $font-color !important;
+}
+
+.el-form-item__label {
+  color: $font-color !important;
+}
+
+.el-card {
+  border-color: $component-bg-color !important;
+  background: $component-bg-color-2 !important;
+  color: $font-color !important;
+}
+
+.el-autocomplete-suggestion {
+  background: $component-bg-color-2 !important;
+  color: $font-color !important;
+  border-color: $component-bg-color !important;
+}
+
+//.el-popper[x-placement^=bottom] .popper__arrow::after{
+//    border-color: $component-bg-color!important;
+//}
+.el-autocomplete-suggestion li.highlighted, .el-autocomplete-suggestion li:hover {
+  background-color: $--color-primary !important;
+  color: $font-color;
+
+}
+
+.el-autocomplete-suggestion li {
+  color: #dadbdc !important;
+  font-weight: 400;
+}
+
+.el-loading-mask {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.el-form-item {
+  color: $font-color;
+}
+
+.el-select-dropdown {
+  background: $component-bg-color-2 !important;
+  border-color: $component-bg-color !important;
+}
+
+.el-select-dropdown__item.hover, .el-select-dropdown__item:hover {
+  background-color: $--color-primary !important;
+  color: #fff;
+}
+
+.el-tooltip__popper.is-dark {
+  background: $component-bg-color-2;
+}
+
+.el-drawer {
+  background: $component-bg-color-2;
+  color: $font-color;
+}
+
+
+.read-content {
+  .comment-item .info .bd {
+    color: #fff !important;
+  }
+
+  img, video {
+    width: 100%;
+  }
+
+  p {
+    line-height: 2 !important;
+    font-size: 20px !important;
+  }
+
+  h1 {
+    font-size: 34px !important;
+    margin-bottom: 30px !important;
+    color: $font-primary !important;
+    line-height: 2 !important;
+  }
+
+  h2 {
+    color: $font-primary !important;
+    font-size: 32px !important;
+    margin-top: 80px !important;
+    line-height: 2 !important;
+  }
+
+  h3 {
+    color: $font-primary !important;
+    font-size: 28px !important;
+    margin-top: 80px !important;
+    line-height: 2 !important;
+  }
+
+  h4 {
+    color: $font-primary !important;
+    font-size: 24px !important;
+    margin-top: 80px !important;
+    line-height: 2 !important;
+  }
+
+  pre, div[data-slate-type="pre"] {
+    background-color: $component-bg-color-2 !important;
+
+    span {
+      line-height: 1 !important;
+    }
+  }
+
+  ._20-cXID6_0 {
+    background-color: $component-bg-color !important;
+  }
+
+  ._2c4hPkl9 [data-slate-editor="true"] {
+    color: $font-color;
+    line-height: 2 !important;
+    font-size: 20px !important;
+  }
+
+  span[data-slate-string="true"] {
+    color: $font-color;
+    line-height: 2 !important;
+    font-size: 20px !important;
+  }
+
+  span[data-slate-type="bold"] span {
+    color: $font-primary !important;
+  }
+
+  ._3ADRghFH_0 {
+    background-color: $component-bg-color !important;
+  }
+
+  ._20-cXID6_0 {
+    //min-width: 960px !important;
+  }
+
+  ._50pDbNcP_0 {
+    //min-width: 960px !important;
+  }
+
+  .MedalIcon_ignoreMedalIcon_3-1Ts {
+    display: block;
+  }
+
+  .noteMenu_noteMenu_zbKHG, .noteDialog_noteDialog_2w-W2, .Pharmacode_main_2SACi, .noteDialog_noteDialog_2w-W2, .Index_comment_1Pwfq, .RichContentFootImg_footImg_23_U6, .ArticleLikeModulePc_LikeWrapper_HqHD5, {
+    display: none;
+
+  }
+
+
+}
+
+
+* {
+  margin: 0;
+}
+
+div,
+section,
+aside,
+main,
+header {
+  box-sizing: border-box;
+}
+
+.el-cascader-menu {
+  height: 200px;
+}
+
+.el-button--primary.is-plain {
+  background-color: $component-bg-color;
+}
+
+// 设置字体图标的颜色
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+.el-popconfirm__main {
+  margin-bottom: 10px;
+}
+
+// 深色主题覆盖样式
+// 下拉框
+.el-input__inner {
+  background-color: $component-bg-color;
+  color: $font-color;
+}
+
+.el-scrollbar {
+  background-color: $component-bg-color;
+}
+
+.el-select-dropdown__item.hover,
+.el-select-dropdown__item:hover {
+  background-color: $page-bg-color;
+}
+
+.el-select-dropdown__item {
+  color: $font-color;
+}
+
+// 时间选择框
+.el-range-input {
+  background-color: $component-bg-color;
+  color: $font-color;
+}
+
+.el-picker-panel {
+  background-color: $component-bg-color;
+  color: $font-color;
+}
+
+.el-date-table td.in-range div {
+  background-color: $page-bg-color;
+}
+
+//text-area
+.el-textarea__inner {
+  background-color: $component-bg-color;
+}
+
+// table
+.el-table tr {
+  background-color: $component-bg-color;
+}
+
+.el-table--striped .el-table__body tr.el-table__row--striped td {
+  background-color: $component-bg-color;
+}
+
+.el-table .el-table__header-wrapper th {
+  background-color: $page-bg-color;
+  color: $font-color;
+}
+
+.el-table th {
+  background-color: $page-bg-color;
+  color: $font-color;
+}
+
+//pagination
+.el-pagination .btn-prev,
+.el-pagination .btn-next {
+  background-color: $component-bg-color;
+}
+
+.el-pagination button:disabled {
+  background-color: $component-bg-color;
+}
+
+.el-pager li {
+  background-color: $component-bg-color;
+  color: $font-color;
+}
+
+//input
+.el-input.is-disabled .el-input__inner {
+  // background-color: $--bg-color-disabled;
+  // color: $--text-color-disabled;
+}
+
+.el-popover {
+  background-color: $component-bg-color;
+  color: $font-color;
+  border: 0;
+}
+
+.el-popper[x-placement^="bottom"] .popper__arrow {
+  border-color: transparent;
+}
+
+.el-popper[x-placement^="bottom"] .popper__arrow::after {
+  border-bottom-color: $component-bg-color !important;
+}
+
+// radio-button
+.el-radio-button__inner {
+  background-color: $component-bg-color;
+}
+
+// button
+.el-button--default {
+  background-color: $component-bg-color;
+}
+
+// loading
+.el-loading-mask {
+  background-color: rgba($color: #fff, $alpha: 0.5);
+}
+
+//confirm
+.el-message-box {
+  background-color: $component-bg-color;
+  color: $font-color;
+}
+
+//popover
+.el-popover {
+  min-width: auto;
+}
+
+.el-loading-spinner {
+  height: 136px;
+  // background: url(../images/loading.svg) center center no-repeat;
+  background-size: 120px 120px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
+  .circular {
+    display: none;
+  }
+
+  .el-loading-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--font-color);
+    line-height: 24px;
+    padding-left: 15px;
+  }
+}
+
+//提示样式修改
+.el-message--error {
+  background: #ffefe6;
+  color: #ed3f13;
+  border: 1px solid #ffcfb8;
+}
+
+.el-message--error .el-message__content {
+  color: #ed3f13;
+}
+
+.el-message {
+  min-width: 220px;
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+.el-message--success {
+  background: #edfff3;
+  color: #19bf6c;
+  border: 1px solid #bbf2cf;
+}
+
+.el-message--success .el-message__content {
+  color: #19bf6c;
+}
+
+//dropdown样式修改
+.el-dropdown-menu {
+  background-color: $component-bg-color;
+  color: $font-color;
+  border: 0;
+  padding: 6px 0;
+}
+
+.el-dropdown-menu__item:not(.is-disabled):hover, .el-dropdown-menu__item:focus {
+  color: $--color-primary;
+  background-color: $component-bg-color;
+
+}
+//Notice
+.el-notification{
+  background-color: $component-bg-color!important;
+  box-shadow: 0 15px 25px rgb(0 0 0 / 60%)!important;
+  border-width: 0!important;
+}
+
+@media (max-width: 750px) {
+  input, textarea {
+    font-size: 16px !important;
+  }
+}
+
+* {
+  outline-color: rgba($--color-primary, 0.2);
+}

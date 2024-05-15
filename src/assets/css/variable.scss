@@ -1,0 +1,26 @@
+/* 改变主题色变量 */
+$--color-primary: #fbc89e;
+$--color-primary-bold: #fa8919;
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+//圆角大小
+$radius-sm: 4px;
+$radius-md: 8px;
+$radius-lg: 12px;
+
+
+$page-bg-color: #17181a;
+$component-bg-color: #1f2122;
+$component-bg-color-2: #17181a;
+$font-color: #d0d3d8;
+$font-color-second: #7D7D7D;
+$font-primary: $--color-primary;
+
+$--color-text-primary: $font-color;
+$border-color: rgba(238, 240, 244, .1);
+
+// --------------------workbench style
+$header-color: #2B2B2B;
+$sidebar-color: #202020;
+$color: #b2b2b2;
+$color-help: #898989;

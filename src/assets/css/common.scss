@@ -1,0 +1,101 @@
+@import './variable.scss';
+
+@import "~element-ui/packages/theme-chalk/src/index";
+
+@import './reset.scss';
+
+
+/* 设置滚动条的样式 */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+    box-shadow: rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #999;
+    box-shadow: rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: rgba(0, 0, 0, 0.5);
+}
+
+
+
+*::selection{
+    background-color: rgba(0,151,255,.15);
+}
+
+
+html,body,.app{
+    margin:0;
+    height: 100%;
+    font-family: Avenir, Tahoma, Arial, PingFang SC, Lantinghei SC,
+        Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif,
+        WenQuanYi Micro Hei, Helvetica, sans-serif;
+
+}
+
+em.highlight{
+    background-color: #ff9;
+}
+
+.mar-r-8{
+    margin-right: 8px;
+}
+
+.CommentItemPC_main_2sjJG {
+    list-style-position: inside;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 26px;
+    border-bottom: 1px solid hsla(0,0%,91.4%,.6);
+}
+.CommentItemPC_main_2sjJG .CommentItemPC_avatar_3FLYR {
+    width: 34px;
+    height: 34px;
+    flex-shrink: 0;
+    border-radius: 50%;
+}
+.CommentItemPC_main_2sjJG .CommentItemPC_info_36Chp {
+    margin-left: .5rem;
+    flex-grow: 1;
+    padding-bottom: 20px;
+}
+
+.ArticlePC_articleTitle_cZCVM,.ArticlePC_articleInfo_2VF1_,.ArticlePC_articleContent_2SKln,.ArticlePC_comment_2Vlfl,.ArticlePC_comments_3-W_z{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.AudioPlayerPC_main_1QFlQ{
+    display: none;
+}
+
+.common-content pre code{
+    color:#eee;
+}
+
+.typo-ol, .typo ol {
+    color: #eee;
+}
+
+// 扩大点击区域
+.click-big {
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: -10px;
+        bottom: -10px;
+        left: -10px;
+        right: -10px;
+        z-index: 1;
+    }
+}
