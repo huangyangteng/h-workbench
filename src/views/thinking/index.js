@@ -86,5 +86,15 @@ export default [
         name: 'pianoBook',
         path: '/piano-book',
         component: () => import('./doremi/piano-book')
-    }
+    },
+    {
+        name: 'job',
+        path: '/job',
+        component: () => import('./works/works.vue')
+    },
+    {
+        name: 'work',
+        path: '/work',
+        component: () => import('./works/works.vue')
+    },
 ]

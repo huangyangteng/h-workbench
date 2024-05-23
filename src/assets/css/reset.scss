@@ -268,6 +268,9 @@ header {
 .el-table tr {
   background-color: $component-bg-color;
 }
+.el-table--enable-row-hover .el-table__body tr:hover>td.el-table__cell{
+  background-color: $component-bg-color;
+}
 
 .el-table--striped .el-table__body tr.el-table__row--striped td {
   background-color: $component-bg-color;
@@ -278,12 +281,25 @@ header {
   color: $font-color;
 }
 
-.el-table th {
+.el-table th,.el-table td {
   background-color: $page-bg-color;
   color: $font-color;
 }
+.el-table th.el-table__cell.is-leaf, .el-table td.el-table__cell{
+  border-color: #363637;
+}
 
-//pagination
+.el-table::before, .el-table--group::after, .el-table--border::after{
+  background-color: #363637;
+
+}
+.el-table__empty-block{
+  background-color: $component-bg-color;
+  color: $font-color;
+
+}
+
+  //pagination
 .el-pagination .btn-prev,
 .el-pagination .btn-next {
   background-color: $component-bg-color;

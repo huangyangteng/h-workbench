@@ -9,7 +9,7 @@
                 <header
                     class="animate__animated animate__fadeIn .animate__delay-1s"
                 >
-                    WEBSTATION
+                    MY PERSONAL WEBSTATION
                 </header>
                 <footer style="position: fixed;bottom:0">
                     <a
@@ -37,7 +37,7 @@
                     >
                         <h2>{{ item.title_en }}</h2>
                         <img :src="item.img" alt="" />
-                        <div>{{ item.title }}</div>
+<!--                        <div>{{ item.title }}</div>-->
                     </a>
                 </section>
                 <footer style="opacity: 0.5" v-if="!isElectron">
@@ -72,18 +72,19 @@ export default {
                     href: '#/workbench'
                 },
                 {
-                    title_en: 'MAC WORK ENVIRONMENT',
-                    title: 'MAC工作环境',
-                    img: require('../../assets/imgs/gummy-macbook.png'),
-                    href: 'mac/'
-                },
-                {
                     title_en: 'KNOWLEDGE ARCHITECTURE',
-                    title: '前端知识架构',
+                    title: '我的知识体系',
                     img: require('../../assets/imgs/cyborg-3.png'),
                     href:
-                        'https://wooden-leech-c45.notion.site/Frontend-Knowledge-System-d86dd74ec2cd477cb4422403f846e678'
+                      'https://max-h.notion.site/MY-KNOWLEDGE-SYSTEM-deb89b4a29a94670aeefc7faa0705c1a'
+                },
+                {
+                    title_en: 'ENGLISH LEARNING',
+                    title: '英语学习',
+                    img: require('../../assets/imgs/gummy-macbook.png'),
+                    href: '/english'
                 }
+
             ]
         }
     },
