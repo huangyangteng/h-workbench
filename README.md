@@ -1,9 +1,37 @@
-# My Personal WebSite
-## tech
-Vue2
-## video player
-播放组件：https://github.com/surmon-china/videojs-player/tree/vue-video-player#api
-支持的事件：https://github.com/surmon-china/videojs-player#component-events
+# My Learning Resource Workbench
+[https://leexiao.site/g/](https://leexiao.site/g/)
 
+Article resources from geek time, video resources from Blibli, acFun, etc.
+## Install
+node version <= 16.14.0
+```shell
+npm i
+```
+
+## Usage
+
+```shell
+npm run dev
+```
+
+
+
+## Build
+
+```shell
+# build
+npm run build
+# deploy
+sh publish.sh
+
+```
+
+## Dependence
+* [Vue.js](https://vuejs.org/)
+* [Video Player](https://github.com/surmon-china/videojs-player)
+
+## Contributing
+
+PRs accepted.
 
 
