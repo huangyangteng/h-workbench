@@ -16,21 +16,11 @@
             </section>
         </header>
         <main class="course-list">
-            <section
+            <ColumnItem
                 v-for="column in selectedColumns"
+                :column="column"
                 :key="column.id"
-                class="panel-column-item"
-            >
-                <h3 @click="toRead(column)">{{ column.title }}</h3>
-                <p>
-                    <span class="column-tag mar-r-8">{{
-                        column.authorName
-                    }}</span>
-                    <span class="column-tag">{{
-                        column.authorInfo.split('，')[0]
-                    }}</span>
-                </p>
-            </section>
+            />
         </main>
     </section>
 </template>
@@ -40,9 +30,11 @@ import { mapState } from 'vuex'
 
 import { getColumns } from '@/api/column'
 import { getApiCache, initApiCache, setApiCache } from '@/tools/cache'
+import ColumnItem from '@/views/ColumnList/ColumnItem.vue'
 
 export default {
     name: 'ColumnList',
+    components: { ColumnItem },
     data() {
         return {
             activePath: 'cs',
@@ -219,38 +211,5 @@ export default {
     strong {
         color: #fa8919;
     }
-}
-
-.panel-column-item {
-    background: $component-bg-color-2;
-    padding: 1em;
-    border-radius: $radius-sm;
-    cursor: pointer;
-
-    > h3 {
-        font-size: 20px;
-        font-weight: 400;
-        transition: 0.5s;
-        //white-space: nowrap;
-
-        &:hover {
-            color: $--color-primary !important;
-        }
-    }
-
-    > p {
-        margin-top: 1em;
-    }
-}
-
-.column-tag {
-    height: 20px;
-    line-height: 20px;
-    padding: 0 4px;
-    font-size: 13px;
-    font-weight: 400;
-    color: #858585;
-    background: $component-bg-color;
-    border-radius: 2px;
 }
 </style>

@@ -1,8 +1,8 @@
 export default [
     {
         path: '/',
-        // redirect: '/workbench/video'
-        component: () => import('./Home.vue')
+        redirect: '/workbench/column'
+        // component: () => import('../Workbench/pages')
     },
     {
         path: '/read/:column/:article',

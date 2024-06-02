@@ -18,7 +18,6 @@
 </template>
 
 <script>
-import { MENU_LIST } from './menu-list'
 import { mapGetters } from 'vuex'
 
 export default {
