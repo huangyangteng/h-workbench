@@ -2,6 +2,7 @@ const path = require('path')
 const DEV_HOST = 'http://localhost:22222'
 const PRODUCT_HOST = 'https://leexiao.site'
 module.exports = {
+    publicPath:'/g',
     devServer: {
         //只在开发时有效，打包后失效
         open: true, //自动打开浏览器

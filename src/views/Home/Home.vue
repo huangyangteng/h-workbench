@@ -37,7 +37,7 @@
                     >
                         <h2>{{ item.title_en }}</h2>
                         <img :src="item.img" alt="" />
-<!--                        <div>{{ item.title }}</div>-->
+                        <!--                        <div>{{ item.title }}</div>-->
                     </a>
                 </section>
                 <footer style="opacity: 0.5" v-if="!isElectron">
@@ -69,14 +69,14 @@ export default {
                     title_en: 'LEARNING RESOURCES',
                     title: '学习资源汇总',
                     img: require('../../assets/imgs/clip-education-1.png'),
-                    href: '#/workbench'
+                    href: '/g/workbench/column'
                 },
                 {
                     title_en: 'KNOWLEDGE ARCHITECTURE',
                     title: '我的知识体系',
                     img: require('../../assets/imgs/cyborg-3.png'),
                     href:
-                      'https://max-h.notion.site/MY-KNOWLEDGE-SYSTEM-deb89b4a29a94670aeefc7faa0705c1a'
+                        'https://max-h.notion.site/MY-KNOWLEDGE-SYSTEM-deb89b4a29a94670aeefc7faa0705c1a'
                 },
                 {
                     title_en: 'ENGLISH LEARNING',
@@ -84,7 +84,6 @@ export default {
                     img: require('../../assets/imgs/gummy-macbook.png'),
                     href: '/english'
                 }
-
             ]
         }
     },

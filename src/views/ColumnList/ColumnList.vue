@@ -99,7 +99,8 @@ export default {
             return lastArticle
         },
         toRead(column) {
-            // let articleId = this._getArticleId(columnId)
+            // let articleId = this._getArticleId(column.id)
+            // console.log('articleId',articleId)
             this.$router.push({
                 name: 'read',
                 params: { column: column.id }

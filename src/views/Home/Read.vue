@@ -27,7 +27,6 @@ import DragLine from '../../components/dragLine'
 import ColumnListDraw from './Modal/ColumnListDraw'
 import { mapState, mapGetters, mapMutations, mapActions } from 'vuex'
 import ArticleOutline from './Content/ArticleOutLine'
-import AudioPlayer from '../../components/AudioPlayer'
 
 export default {
     components: {
@@ -38,7 +37,6 @@ export default {
         PicturePreview,
         DragLine,
         ColumnListDraw
-        // AudioPlayer
     },
     data() {
         return {

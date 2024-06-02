@@ -4,10 +4,6 @@ export default [
         // redirect: '/workbench/video'
         component: () => import('./Home.vue')
     },
-    // {
-    //     path: '/read',
-    //     component: () => import('./Home.vue')
-    // },
     {
         path: '/read/:column/:article',
         name: 'read',
