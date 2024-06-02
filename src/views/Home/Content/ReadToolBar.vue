@@ -216,8 +216,9 @@ export default {
                 hightLightOprateMenu.querySelector('.copy').id =
                     e.target.dataset.timestamp
             }
-            document.removeEventListener('mousedown', clickFn)
-            document.addEventListener('mousedown', clickFn)
+            document.onmousedown=clickFn
+            // document.removeEventListener('mousedown', clickFn)
+            // document.addEventListener('mousedown', clickFn)
         },
         bindKeyboard() {},
         chooseColumn() {
