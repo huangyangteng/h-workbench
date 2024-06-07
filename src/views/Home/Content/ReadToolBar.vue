@@ -33,7 +33,7 @@
         <a
             style="margin-left: 20px;color:#fff"
             target="_blank"
-            href="/#/workbench/column"
+            href="/g/workbench/column"
             >新开页面</a
         >
         <a
