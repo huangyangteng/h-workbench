@@ -41,6 +41,12 @@ export default {
     left: 5px;
     height: 42px;
     width: 42px;
+    display: none;
+}
+@media (max-width: 750px) {
+    .menu {
+        display: block;
+    }
 }
 
 .menu-circle {
@@ -115,4 +121,5 @@ export default {
 .menu.open .menu-line-3 {
     transform: translateY(-7px) translateY(50%) rotate(135deg);
 }
+
 </style>

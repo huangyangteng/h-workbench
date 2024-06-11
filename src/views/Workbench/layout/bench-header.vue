@@ -2,6 +2,9 @@
     <section class="bench-header">
         <div class="left">
             <menu-icon></menu-icon>
+            <a href="https://leexiao.site/"
+                ><img src="/g/logo.png" class="logo" alt="logo"
+            /></a>
         </div>
         <div class="center">
             <el-input
@@ -219,6 +222,17 @@ export default {
 
     .left {
         min-width: 50px;
+
+        > a {
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            margin-left: 1em;
+            width: 1.5em;
+        }
     }
 
     .right {

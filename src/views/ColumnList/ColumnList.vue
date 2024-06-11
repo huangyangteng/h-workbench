@@ -147,7 +147,7 @@ export default {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1em;
-    padding: 2em;
+    padding: 1.2em;
     border-radius: $radius-md;
 }
 
@@ -173,6 +173,11 @@ export default {
 @media (max-width: 600px) {
     .column-path-list {
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 400px) {
+    .course-list {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 

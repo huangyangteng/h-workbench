@@ -323,6 +323,7 @@ export default {
 @media (max-width: 750px) {
     .mobile-menu {
         visibility: visible;
+        z-index: 9;
     }
     .toolbar-aside,
     .fold-icon {
@@ -340,6 +341,10 @@ export default {
     }
     .jk-title {
         font-size: 1em;
+        max-width: 120px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
     }
 }
 </style>

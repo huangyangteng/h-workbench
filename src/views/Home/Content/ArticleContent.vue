@@ -1,10 +1,11 @@
 <template>
-    <section
-        @mouseup="logMarks"
-        class="article-wrapper"
-        v-html="articleContent"
-        ref="articalWrapper"
-    ></section>
+    <section @mouseup="logMarks" class="article-wrapper">
+        <div
+            class="article-content"
+            v-html="articleContent"
+            ref="articalWrapper"
+        ></div>
+    </section>
 </template>
 <script>
 import { Loading } from 'element-ui'
@@ -243,30 +244,32 @@ export default {
 </script>
 <style lang="scss" scoped>
 .article-wrapper {
-    padding: 80px 40px;
-    padding-left: 20%;
-    padding-right: 20%;
     overflow-y: auto;
     box-sizing: border-box;
     height: 100%;
     position: relative;
     background: $component-bg-color;
+    display: flex;
+    justify-content: center;
+    padding-right: 2em; //稍微往左偏一点，因为右边有outline
+
+    .article-content {
+        max-width: 780px;
+        width: 100%;
+    }
 }
 
 //小于750的尺寸
 @media (max-width: 750px) {
     .article-wrapper {
-        padding: 10px;
+        padding: 1em;
         overflow-x: hidden;
     }
-}
-
-.article-wrapper #app {
 }
 </style>
 <style lang="scss">
 ._3ADRghFH_0 {
-    max-width: 1200px;
+    max-width: 960px;
     margin: 0 auto;
     margin-bottom: 20px;
     font-weight: 400;
